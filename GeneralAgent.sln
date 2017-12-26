@@ -28,6 +28,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GeneralAgentAppAspNet(1)", 
 		SlnRelativePath = "GeneralAgentAppAspNet\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralAgentAppMvc", "GeneralAgentAppMvc\GeneralAgentAppMvc.csproj", "{14A1E227-44F3-480B-A0EA-71BFA6BFB65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{6950928F-876A-4284-AC27-F55CF1816D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6950928F-876A-4284-AC27-F55CF1816D60}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{6950928F-876A-4284-AC27-F55CF1816D60}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{14A1E227-44F3-480B-A0EA-71BFA6BFB65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A1E227-44F3-480B-A0EA-71BFA6BFB65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A1E227-44F3-480B-A0EA-71BFA6BFB65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A1E227-44F3-480B-A0EA-71BFA6BFB65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
