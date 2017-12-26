@@ -8,7 +8,7 @@ namespace DAL
 {
     class SqlDBHelper
     {
-        const string CONNECTION_STRING = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=GeneralAgent;Data Source=DESKTOP-CAIOJSG\SQLEXPRESS;";
+        const string CONNECTION_STRING = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=GeneralAgent;Data Source=.\SQLEXPRESS;";
 
         // This function will be used to execute R(CRUD) operation of parameterless commands
         internal static DataTable ExecuteSelectCommand(string CommandName, CommandType cmdType)
