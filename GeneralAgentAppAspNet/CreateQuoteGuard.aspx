@@ -36,6 +36,7 @@
             -moz-opacity: 1;*/
         }
 
+
             .center img {
                 height: 50px;
                 width: 128px;
