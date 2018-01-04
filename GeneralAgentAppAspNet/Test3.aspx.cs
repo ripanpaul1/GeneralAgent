@@ -5,10 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Test1 : System.Web.UI.Page
+public partial class Test3 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
 
+    }
+    protected void btnLoadContent_Click(object sender, EventArgs e)
+    {
+        System.Threading.Thread.Sleep(5000);
     }
 }
