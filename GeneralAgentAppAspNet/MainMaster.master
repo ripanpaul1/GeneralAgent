@@ -63,9 +63,9 @@
                                 <li><a href="CreateQuote.aspx">Create Quote</a></li>
                                 <li><a href="QuoteHome.aspx">My Quotes</a></li>
                                 <li><a href="QuoteHome.aspx">All Quotes</a></li>
-                                <li><a href="#">Release Notes</a></li>
-                                <li><a href="#">Premium Modification Tutorial</a></li>
-                                <li><a href="#">Garage Downloads</a></li>
+                                <li><a href="Guard.aspx">Create Quote for Guard</a></li>
+                                <%--<li><a href="#">Premium Modification Tutorial</a></li>
+                                <li><a href="#">Garage Downloads</a></li>--%>
                             </ul>
                         </li>
                         
