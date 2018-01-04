@@ -1,4 +1,6 @@
 # Visual Studio 2015/2017 cache/options directory
 *.vs/
-bin
-obj
+BLL/bin
+BLL/obj
+DAL/bin
+DAL/obj
