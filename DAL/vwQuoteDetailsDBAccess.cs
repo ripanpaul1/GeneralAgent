@@ -12,14 +12,12 @@ namespace DAL
     {
         public List<vwQuoteDetails> GetvwQuoteDetailsList()
         {
-            List<vwQuoteDetails> list = null;
+            List<vwQuoteDetails> list = new List<vwQuoteDetails>();
 
             using (DataTable table = SqlDBHelper.ExecuteSelectCommand("proc_vwQuoteDetails_GetAll", CommandType.StoredProcedure))
             {
                 if (table.Rows.Count > 0)
                 {
-                    list = new List<vwQuoteDetails>();
-
                     foreach (DataRow row in table.Rows)
                     {
                         vwQuoteDetails _quote = new vwQuoteDetails();

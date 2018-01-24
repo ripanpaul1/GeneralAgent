@@ -1,8 +1,52 @@
-﻿
+﻿@model PagedList.IPagedList<DAL.vwQuoteDetails>
+@using PagedList.Mvc
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "My Quote";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>@ViewBag.Title</h2>
+<div>
+    <div></div>
+    <div>
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        @using (Html.BeginForm("Index", "Quote", FormMethod.Get))
+        {
+            <p>
+                Find by quote: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+                <input type="submit" value="Search" />
+            </p>
+        }
+        @if (Model.Count > 0)
+        {
+            <table class="table">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.QuoteNo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Insured_Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Effective_Date)</td>
+                        <td>@Html.DisplayFor(modelItem => item.QuoteStatus)</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                        </td>
+                    </tr>
+                }
+            </table>
 
+            <br />
+            <div id='Paging' style="text-align: center">
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+            </div>
+        }
+        else
+        {
+            <p>There aren´t any quote created.</p>
+        }
+    </div>
+</div>

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Configuration;
 using System.Web;
-using Utilities;
+using Lateetud.Utilities;
+using Lateetud.Utilities.AddressManager;
 using Newtonsoft.Json;
 
 public partial class AddressVerification : System.Web.UI.Page

@@ -11,7 +11,7 @@ namespace GeneralAgentAppMvc.Controllers
         // GET: Quote
         public ActionResult Index()
         {
-            return View();
+            return View(new BLL.vwQuoteDetailsHandler().GetQuoteDetails());
         }
 
         // GET: Quote/Details/5
