@@ -1,0 +1,11 @@
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\DAL.EF.dll.config
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\DAL.EF.dll
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\DAL.EF.pdb
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\EntityFramework.dll
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\EntityFramework.SqlServer.dll
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\EntityFramework.xml
+E:\OfficeWork\GeneralAgent\DAL.EF\bin\Debug\EntityFramework.SqlServer.xml
+E:\OfficeWork\GeneralAgent\DAL.EF\obj\Debug\DAL.EF.csprojResolveAssemblyReference.cache
+E:\OfficeWork\GeneralAgent\DAL.EF\obj\Debug\DAL.EF.csproj.CoreCompileInputs.cache
+E:\OfficeWork\GeneralAgent\DAL.EF\obj\Debug\DAL.EF.dll
+E:\OfficeWork\GeneralAgent\DAL.EF\obj\Debug\DAL.EF.pdb
